@@ -12,5 +12,5 @@ getTestBed().initTestEnvironment(
 );
 
 // Find all the tests in the current file and run them.
-const context = (require as any ).context('./', true, /app-component\.spec\.ts$/);
+const context = (require as any ).context('./', true, /\.spec\.ts$/);
 context.keys().map(context);
